@@ -4,27 +4,27 @@
 Used to protect access to a struct, making its attributes private.
 
 > _object.h_
-‘‘‘c
+```c
 typedef struct ObjName ObjName
-‘‘‘
+```
 
 > _object.c_
-‘‘‘c
+```c
 #include "object.h"
 
 typedef struct ObjName {
     ...  // attributes
 } ObjName;
-‘‘‘
+```
 
 ## Constructor
-‘‘‘c
+```c
 ObjName OBJ_NAME(...);
-‘‘‘
+```
 
 ## Methods
-‘‘‘c
+```c
 RetVal OBJ_NAME_Method(ObjName self, ...);
-‘‘‘
+```
 
 
