@@ -1,7 +1,6 @@
 # Object-oriented programming in C
 
-## Forward declaration
-
+## Forward declaration
 Used to protect access to a struct, making its attributes private.
 
 > _object.h_
