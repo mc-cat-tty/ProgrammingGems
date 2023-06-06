@@ -29,3 +29,11 @@ traceback.print_exc()
 import importlib
 importlib.reload(MODULE)
 ```
+
+## Inspect
+```python
+import inspect
+
+inspect.getsource(function)
+inspect.signature(function)
+```
