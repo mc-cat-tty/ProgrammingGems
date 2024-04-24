@@ -35,7 +35,7 @@ class Base {
         // ...
 }
 ```
-Give `Base` class the following syntaxes are equivalent:
+Given `Base` class the following syntaxes are equivalent:
 ```cpp
 class Derived : Base {}
 ```
